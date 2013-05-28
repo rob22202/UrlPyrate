@@ -4,7 +4,7 @@
 # UrlPyrate (aka PerfectGirlfriend) 200s every/any HTTP request, serving default content.  
 # Use with a DNS blackhole for funtimes.
 
-# This script was written by rob22202@gmail.com @rob22202 
+# This script was created by rob22202@gmail.com @rob22202 
 # and inspired by Fakenet http://practicalmalwareanalysis.com/fakenet/
 
 # This script is not intended to be use don the internet, as it is 
