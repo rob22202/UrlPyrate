@@ -32,14 +32,13 @@
 
 # UrlPyrate ouputs pipe delimited logs to UrlPyrate.log, in directory from which it was run.
 
-import SimpleHTTPServer, os, BaseHTTPServer, ssl, sys
-from multiprocessing import Process
+import SimpleHTTPServer, os, BaseHTTPServer, ssl, sys, time from multiprocessing import Process
 
 logfile = 'UrlPyrate.log'
 
 def main():
-  http_port = 80
-	https_port = 4443
+	http_port = 80
+	https_port = 443
 	with open(logfile, 'a') as log:
 			print >> log, 'date|source_ip|source_port|source_name|host|command|path|referer|accept|accept_charset|accept_encoding|accept_language|connection|cookie|user_agent'
 			print >> log, ''
@@ -50,6 +49,7 @@ def main():
 	https_server = Process(name='https_server', target=run_https_server, args=(https_port,))
 	http_server = Process(name='http_server', target=run_http_server, args=(http_port,))
 	https_server.start()
+	time.sleep(1)
 	http_server.start()
 	
 def run_https_server(https_port):
