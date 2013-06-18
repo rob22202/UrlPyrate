@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # UrlPyrate Version 1.0
-# UrlPyrate (aka PerfectGirlfriend) 200s every/any HTTP request, serving default content.  
+# UrlPyrate 200s every/any HTTP request, serving default content.  
 # Use with a DNS blackhole for funtimes.
 
 # This script was created by rob22202@gmail.com @rob22202 # and inspired by Fakenet http://practicalmalwareanalysis.com/fakenet/
