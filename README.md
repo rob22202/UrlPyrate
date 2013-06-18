@@ -2,7 +2,7 @@ UrlPyrate
 =========
 
 # UrlPyrate Version 1.0
-# UrlPyrate (aka PerfectGirlfriend) 200s every/any HTTP request, serving default content.  
+# UrlPyrate 200s every/any HTTP request, serving default content.  
 # Use with a DNS blackhole for funtimes.
 
 # This script was written by rob22202@gmail.com @rob22202 
