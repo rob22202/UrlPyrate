@@ -60,7 +60,7 @@ def run_https_server(https_port):
 		
 def run_http_server(http_port):
 	print "Serving HTTP on port %d" % (http_port)
-	try
+	try:
 		httpd = BaseHTTPServer.HTTPServer(
 				('', http_port),
 				SimplerHTTPRequestHandler )
